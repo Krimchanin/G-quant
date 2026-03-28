@@ -1,0 +1,26 @@
+# Secrets / access data
+
+dostup.md
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+
+# Private business docs (do not publish)
+docs/
+*.md
+
+# Allow only selected public docs
+authors.md
+!README.md
+!docs-public/
+!docs-public/**
+
+# Node / build artifacts
+node_modules/
+**/node_modules/
+target/
+**/target/
+.DS_Store

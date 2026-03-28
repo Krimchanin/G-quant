@@ -1,0 +1,7 @@
+{
+  "name": "HCV",
+  "symbol": "HCV",
+  "description": "G-Quant utility token (devnet metadata)",
+  "image": "https://raw.githubusercontent.com/<org-or-user>/<repo>/<branch>/docs-public/metadata/hcv-logo.png",
+  "external_url": "https://gquant.tech"
+}

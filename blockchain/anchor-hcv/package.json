@@ -1,0 +1,22 @@
+{
+  "name": "hcv-anchor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "anchor test",
+    "init:state": "node scripts/init_hcv_state.js",
+    "read:state": "node scripts/read_state.js",
+    "update:nav": "node scripts/update_nav.js",
+    "build:ix": "node scripts/build_instruction_data.js",
+    "preflight:check": "node scripts/preflight_check.js"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@types/chai": "^4.3.20",
+    "@types/mocha": "^10.0.10",
+    "chai": "^4.5.0",
+    "mocha": "^11.7.4",
+    "ts-mocha": "^10.1.0",
+    "typescript": "^5.9.3"
+  }
+}
