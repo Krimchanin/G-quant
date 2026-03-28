@@ -24,3 +24,5 @@ node_modules/
 target/
 **/target/
 .DS_Store
+hcv.png
+hcv.svg
